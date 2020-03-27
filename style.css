@@ -1,0 +1,13 @@
+.calculator {
+    background-color: blueviolet;
+    height: 20rem;
+    width: 20rem;
+    margin: auto;
+    display: grid;
+    grid-template-rows: 25% repeat(5, 15%);
+    grid-template-columns: repeat(4, 1fr);
+}
+.display {
+    background-color: chartreuse;
+    grid-column: 1/ -1;
+}
