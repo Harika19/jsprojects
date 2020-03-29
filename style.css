@@ -1,13 +1,26 @@
 .calculator {
-    background-color: blueviolet;
     height: 20rem;
     width: 20rem;
     margin: auto;
     display: grid;
     grid-template-rows: 25% repeat(5, 15%);
-    grid-template-columns: repeat(4, 1fr);
 }
 .display {
-    background-color: chartreuse;
+    background-color: blueviolet;
+    color: #fff;
+    padding: 1.3rem;
+    font-size: 2rem;
     grid-column: 1/ -1;
+}
+.frow,
+.srow,
+.trow,
+.frrow,
+.fiverow {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+#equal {
+    grid-column: 3 /-1;
 }
